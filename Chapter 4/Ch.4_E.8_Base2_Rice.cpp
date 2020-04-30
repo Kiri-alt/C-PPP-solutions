@@ -8,7 +8,9 @@ int count_steps(int minimum, int iteration);
 int main()
 {
     // i'm first going to try to solve this issue with recursion.
-    int local_minimum = 10000; // minimal amount of rice grains asked
+    cout << "How much rice do you want: ";
+    int local_minimum; // minimal amount of rice grains asked
+    cin >> local_minimum;
     int minimum_squares = count_steps(local_minimum, 0);
     cout << "\nThe minimum amound of squares you'd need for that amount of rice is: " << minimum_squares << endl;
 }
