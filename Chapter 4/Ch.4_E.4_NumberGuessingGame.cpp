@@ -58,6 +58,9 @@ int recurse(int low, int high) {
 	}
 }
 
+// old, non-recursive solution I made
+
+/*
 int binary_search_numbers()
 {
 	int low = 1;
@@ -117,3 +120,4 @@ int binary_search_numbers()
 	// return mid
 	return mid;
 }
+*/
